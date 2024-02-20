@@ -340,13 +340,10 @@ include "connection.php";
     <th>Appo_ID</th>
     <th>Patienty_ID</th>
     <th>Doctor_ID </th>
-    <th>Specialization</th>
     <th>Mobile</th>
     <th>Free</th>
     <th>Hospital</th>
     <th>Location</th>
-    <th>Appointment_Date</th>
-    <th>Appointment_Time</th>
     <th>Edit</th>
     <th>Delete</th>
     
@@ -365,13 +362,10 @@ while ($row = mysqli_fetch_assoc($result)) {
         <td><?php echo $row['appointmentId']; ?></td>
         <td><?php echo $row['PatientyId']; ?></td>
         <td><?php echo $row['doctorId']; ?></td>
-        <td><?php echo $row['specialization']; ?></td>
         <td><?php echo $row['mobile']; ?></td>
         <td><?php echo $row['free']; ?></td>
         <td><?php echo $row['hospital']; ?></td>
         <td><?php echo $row['location']; ?></td>
-        <td><?php echo $row['Appointment_date']; ?></td>
-        <td><?php echo $row['Appointment_time']; ?></td>
         <td>
             <form method="get"><button id="edit_button" type="button">Edit</button></form>
         </td>
