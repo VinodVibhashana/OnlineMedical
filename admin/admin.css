@@ -1,0 +1,78 @@
+.admin_site {
+  width: 50px;
+  height: auto;
+}
+
+input[type="button"] {
+  width: 130px;
+  height: 50px;
+  background-color: seagreen;
+  color: aliceblue;
+
+  cursor: pointer;
+  font-size: 16px; 
+}
+
+/* Optional: Add hover effect for better user interaction */
+input[type="button"]:hover {
+  background-color: darkgreen;
+}
+
+.dashbord {
+  display: flex;
+
+}
+
+.flex-container {
+  display: flex;
+  padding-left: 200px;
+  justify-content: space-around;
+  
+}
+
+.flex-container > div {
+ 
+
+  padding:auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.doctors {
+  background-color: #7f89f6;
+  width: 200px;
+}
+.patients {
+  background-color: #ccea57;
+  width: 200px;
+}
+.applications {
+  background-color: #ec7070;
+  width: 200px;
+}
+
+.addmin_doctors, th, td {
+  border:1px solid black;
+ 
+
+}
+
+.addmin_doctors {
+ 
+  background-color: aquamarine;
+}
+
+.addmin_patients{
+ background-color: #7f89f6;
+}
+.addmin_appointment{
+  background-color: chartreuse;
+}
+.addmin_specialization{
+  background-color: rgb(190, 164, 61);
+}
+
+
+
